@@ -22,7 +22,7 @@ const initScenes = () => scenes.map((Scene) => new Scene(SHARED_CONFIG));
 const config = {
   type: Phaser.AUTO,
   ...SHARED_CONFIG,
-  // pixelArt prevents spritesheets to blur and display random borders
+  // pixelArt prevents spritesheets to blur and display random borders 
   pixelArt: true,
   physics: {
     default: "arcade",
